@@ -7,6 +7,7 @@ length = 1
 
 
 
+
 screen = pygame.display.set_mode((800, 800))
 lose = pygame.image.load("kindpng_3943771.png").convert_alpha()
 clock = pygame.time.Clock()
@@ -50,6 +51,12 @@ while run:
     snake_body.append([x, y])
     if len(snake_body) > length:
                 snake_body.pop(0)
+    
+    head = snake_body[-1]
+    snake_body[:-1]
+    
+    if head in snake_body[:-1]:
+        run = False
     if x < 0 or x >= 800 or y < 0 or y >= 800:
         run = False
          
