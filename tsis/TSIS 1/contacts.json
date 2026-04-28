@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Charlie",
+        "email": "charlie@gmail.com",
+        "birthday": "2002-05-10",
+        "group": "Friend",
+        "phone": "555000",
+        "type": "mobile"
+    },
+    {
+        "name": "Alice",
+        "email": "alice@gmail.com",
+        "birthday": "2001-03-15",
+        "group": "Friend",
+        "phone": "777111",
+        "type": "mobile"
+    },
+    {
+        "name": "Bob",
+        "email": "bob@gmail.com",
+        "birthday": "2000-07-20",
+        "group": "Work",
+        "phone": "777222",
+        "type": "work"
+    }
+]
